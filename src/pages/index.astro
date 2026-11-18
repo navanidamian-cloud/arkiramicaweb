@@ -51,7 +51,7 @@ const jsonLd = {
 <html lang="es-MX">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={sitio.descripcion} />
     <meta name="theme-color" content="#161718" />
@@ -109,7 +109,7 @@ const jsonLd = {
       <!-- HERO -->
       <section class="hero" id="inicio" aria-labelledby="hero-t">
         <div class="hero__media" aria-hidden="true">
-          <video class="hero__video" src="/videohero.mp4" autoplay muted loop playsinline preload="auto"></video>
+          <video class="hero__video" src="/videohero.mp4" autoplay muted loop playsinline webkit-playsinline preload="auto"></video>
           <div class="hero__scrim"></div>
         </div>
         <div class="hero__grid" aria-hidden="true"></div>

@@ -1,7 +1,13 @@
 // Arkirámica — intro del logo, header, reveals, carrusel de marcas y mapa.
 const root = document.documentElement;
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-if (reduce) document.querySelectorAll('.hero__video').forEach((v) => v.pause());
+document.querySelectorAll('.hero__video').forEach((v) => {
+  v.muted = true;
+  v.defaultMuted = true;
+  v.playsInline = true;
+  if (reduce) v.pause();
+  else v.play().catch(() => {});
+});
 
 /* ---------- Intro: el logo se escribe y aterriza en el header (FLIP) ---------- */
 (function intro() {
@@ -38,12 +44,18 @@ if (reduce) document.querySelectorAll('.hero__video').forEach((v) => v.pause());
     logo.querySelectorAll('.tag').forEach((t) => t.animate({ opacity: [1, 0] }, { duration: 220, fill: 'forwards' }));
     curtain.animate({ clipPath: ['inset(0 0 0 0)', 'inset(0 0 100% 0)'] }, { duration: dur + 120, easing, fill: 'forwards' });
     const fly = logo.animate(
-      { transform: ['none', `translate(${to.left - from.left}px, ${to.top - from.top}px) scale(${s})`] },
+      { transform: ['translate3d(0px, 0px, 0px) scale(1)', `translate3d(${to.left - from.left}px, ${to.top - from.top}px, 0px) scale(${s})`] },
       { duration: dur, easing, fill: 'forwards' }
     );
-    fly.finished.finally(() => {
+    const cleanupIntro = () => {
+      if (!el.isConnected) return;
       root.classList.remove('intro');
       setTimeout(() => el.remove(), 140);
+    };
+    const safety = setTimeout(cleanupIntro, dur + 300);
+    fly.finished.finally(() => {
+      clearTimeout(safety);
+      cleanupIntro();
     });
   };
 
@@ -105,7 +117,8 @@ if (reduce) document.querySelectorAll('.hero__video').forEach((v) => v.pause());
     itemW = firstSet.firstElementChild.getBoundingClientRect().width;
   };
   measure();
-  window.addEventListener('resize', measure);
+  if ('ResizeObserver' in window) new ResizeObserver(measure).observe(firstSet);
+  window.addEventListener('resize', measure, { passive: true });
 
   const apply = () => {
     if (setW) x = ((x % setW) - setW) % setW; // siempre en (-setW, 0]
@@ -143,10 +156,10 @@ if (reduce) document.querySelectorAll('.hero__video').forEach((v) => v.pause());
   // Arrastre
   let startX = 0, startOffset = 0, lastX = 0, lastT = 0;
   region.addEventListener('pointerdown', (e) => {
-    if (e.button !== 0) return;
+    if (!e.isPrimary || e.button !== 0) return;
     dragging = true; glide = null; vel = 0; speed = 0;
     startX = lastX = e.clientX; startOffset = x; lastT = performance.now();
-    region.setPointerCapture(e.pointerId);
+    try { region.setPointerCapture(e.pointerId); } catch (err) {}
     region.classList.add('dragging');
   });
   region.addEventListener('pointermove', (e) => {
