@@ -1,0 +1,15 @@
+[
+  { "nombre": "Helvex", "archivo": "helvex.svg", "escala": 1.0 },
+  { "nombre": "Villeroy & Boch", "archivo": "villeroy-boch.svg", "escala": 1.75 },
+  { "nombre": "American Standard", "archivo": "american-standard.svg", "escala": 0.9 },
+  { "nombre": "Daltile", "archivo": "daltile.svg", "escala": 0.9 },
+  { "nombre": "Urrea", "archivo": "urrea.svg", "escala": 0.62 },
+  { "nombre": "Vitromex", "archivo": "vitromex.svg", "escala": 0.62 },
+  { "nombre": "Firenze", "archivo": "firenze.svg", "escala": 1.05 },
+  { "nombre": "Castel", "archivo": "castel.png", "escala": 1.2 },
+  { "nombre": "Mapei", "archivo": "mapei.svg", "escala": 0.9 },
+  { "nombre": "Laticrete", "archivo": "laticrete.svg", "escala": 1.9 },
+  { "nombre": "Ardex", "archivo": "ardex.svg", "escala": 1.6 },
+  { "nombre": "Cemix", "archivo": "cemix.png", "escala": 1.15 },
+  { "nombre": "Perdura", "archivo": "perdura.png", "escala": 0.62 }
+]

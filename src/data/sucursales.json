@@ -1,0 +1,85 @@
+[
+  {
+    "id": "las-juntas",
+    "nombre": "Puerto Vallarta",
+    "zona": "Las Juntas",
+    "direccion": "Carretera a Tepic, Las Juntas, 48291 Puerto Vallarta, Jal.",
+    "direccionConfirmada": false,
+    "ciudad": "Puerto Vallarta",
+    "estado": "Jalisco",
+    "cp": "48291",
+    "lat": 20.6949659,
+    "lon": -105.2345506,
+    "telefono": "+523222903235",
+    "telefonoVisible": "322 290 3235",
+    "whatsapp": null,
+    "maps": "https://maps.app.goo.gl/KnxohDm17ePgZHJ69",
+    "horario": [
+      { "dias": "Lunes a viernes", "horas": "8:30 – 18:30", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "08:30", "cierra": "18:30" },
+      { "dias": "Sábado", "horas": "9:00 – 14:00", "ld": ["Saturday"], "abre": "09:00", "cierra": "14:00" },
+      { "dias": "Domingo", "horas": "Cerrado" }
+    ]
+  },
+  {
+    "id": "mezcales",
+    "nombre": "Mezcales",
+    "zona": "Bahía de Banderas",
+    "direccion": "Calle Yaca, San Clemente, 63407 Bahía de Banderas, Nay.",
+    "direccionConfirmada": false,
+    "ciudad": "Bahía de Banderas",
+    "estado": "Nayarit",
+    "cp": "63407",
+    "lat": 20.7344248,
+    "lon": -105.2760056,
+    "telefono": "+523222903235",
+    "telefonoVisible": "322 290 3235",
+    "whatsapp": null,
+    "maps": "https://maps.app.goo.gl/v56r4qBWsuJ6Ujiy6",
+    "horario": [
+      { "dias": "Lunes a viernes", "horas": "8:30 – 18:30", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "08:30", "cierra": "18:30" },
+      { "dias": "Sábado", "horas": "8:30 – 14:00", "ld": ["Saturday"], "abre": "08:30", "cierra": "14:00" },
+      { "dias": "Domingo", "horas": "Cerrado" }
+    ]
+  },
+  {
+    "id": "guadalajara",
+    "nombre": "Guadalajara",
+    "zona": "Ladrón de Guevara",
+    "direccion": "Av. México, Ladrón de Guevara, 44158 Guadalajara, Jal.",
+    "direccionConfirmada": false,
+    "ciudad": "Guadalajara",
+    "estado": "Jalisco",
+    "cp": "44158",
+    "lat": 20.679675,
+    "lon": -103.3770048,
+    "telefono": "+523326881900",
+    "telefonoVisible": "33 2688 1900",
+    "whatsapp": null,
+    "maps": "https://maps.app.goo.gl/4Xmfv1hYG35nR1DT6",
+    "horario": [
+      { "dias": "Lunes a viernes", "horas": "9:00 – 19:00", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "09:00", "cierra": "19:00" },
+      { "dias": "Sábado", "horas": "9:00 – 14:00", "ld": ["Saturday"], "abre": "09:00", "cierra": "14:00" },
+      { "dias": "Domingo", "horas": "Cerrado" }
+    ]
+  },
+  {
+    "id": "bodega-3",
+    "nombre": "Bodega 3",
+    "zona": "Ixtapa, Puerto Vallarta",
+    "direccion": "Carretera Guadalajara – Puerto Vallarta, Ixtapa, 48282 Puerto Vallarta, Jal.",
+    "direccionConfirmada": false,
+    "ciudad": "Puerto Vallarta",
+    "estado": "Jalisco",
+    "cp": "48282",
+    "lat": 20.7127868,
+    "lon": -105.2202256,
+    "telefono": null,
+    "telefonoVisible": null,
+    "whatsapp": null,
+    "maps": "https://maps.app.goo.gl/7ownLtkxZaMLrraQA",
+    "horario": [
+      { "dias": "Lunes a viernes", "horas": "9:00 – 18:00", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "09:00", "cierra": "18:00" },
+      { "dias": "Sábado y domingo", "horas": "Cerrado" }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+---
+// Logo inline (generado con `npm run logo` desde Arkirámicalogo.svg).
+// variant "full" incluye el lema; "mark" recorta solo el wordmark.
+import inner from './logo-inner.html?raw';
+interface Props { variant?: 'full' | 'mark'; class?: string; decorative?: boolean }
+const { variant = 'full', class: cls = '', decorative = false } = Astro.props;
+const viewBox = variant === 'mark' ? '0 0 2184 272' : '0 0 2184 403';
+---
+<svg
+  class:list={['logo', `logo--${variant}`, cls]}
+  viewBox={viewBox}
+  xmlns="http://www.w3.org/2000/svg"
+  role={decorative ? undefined : 'img'}
+  aria-label={decorative ? undefined : 'Arkirámica'}
+  aria-hidden={decorative ? 'true' : undefined}
+  focusable="false"
+  set:html={inner}
+/>

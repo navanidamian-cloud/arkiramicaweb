@@ -1,0 +1,11 @@
+[
+  { "titulo": "Pisos", "texto": "Porcelanatos y cerámicos para interiores y exteriores.", "foto": "/images/laminas.webp" },
+  { "titulo": "Azulejos", "texto": "Recubrimientos para muros de baño, cocina y fachada.", "foto": "/images/azulejos.webp" },
+  { "titulo": "Muebles para baño", "texto": "Gabinetes, lavabos y sanitarios.", "foto": "/images/mueble-bano.webp" },
+  { "titulo": "Grifería", "texto": "Mezcladoras, monomandos y regaderas.", "foto": "/images/grifo.webp" },
+  { "titulo": "Plomería", "texto": "Válvulas, conexiones y accesorios de instalación.", "foto": "/images/plomeria.webp" },
+  { "titulo": "Acabados", "texto": "Los detalles y complementos que rematan cada espacio.", "foto": "/images/architecturalhardaware.webp" },
+  { "titulo": "Equipo de cocina", "texto": "Tarjas, grifería y equipamiento para cocina.", "foto": "/images/tarja.webp" },
+  { "titulo": "Calentadores", "texto": "Calentadores de agua para casa y proyecto.", "foto": "/images/calentador.webp" },
+  { "titulo": "Adhesivos", "texto": "Adhesivos y boquillas para una instalación duradera.", "foto": "/images/adhesivo.webp" }
+]

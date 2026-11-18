@@ -1,0 +1,222 @@
+[
+  {
+    "marca": "Helvex",
+    "slug": "helvex",
+    "archivo": "helvex.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://helvex.com.mx/on/demandware.static/Sites-Helvex-Site/-/default/dw7d16185e/images/brandIconRed.svg",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#C80B1F",
+      "#FFFFFF"
+    ],
+    "variantes": [
+      "helvex-blanco.svg (oficial: brandIconWhite.svg del header transparente; óvalo blanco con letras caladas)"
+    ],
+    "confianza": "alta",
+    "notas": "SVG del header de helvex.com.mx (img.header-logo). Sanitizado; viewBox original ya ajustado (0 0 113 32)."
+  },
+  {
+    "marca": "Urrea",
+    "slug": "urrea",
+    "archivo": "urrea.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://urrea.mx/images/urrea.svg",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#000000"
+    ],
+    "variantes": [
+      "urrea-blanco.svg (oficial en blanco, sin tagline)"
+    ],
+    "confianza": "media",
+    "notas": "Fuente: urrea.mx, sitio de URREA plomería/grifería ('Tecnología para vivir el agua'), no el de herramientas (urrea.com). El sitio solo publica el logo en BLANCO con tagline: se eliminaron los trazos del tagline y se recortó el viewBox. urrea.svg es una versión monocroma negra DERIVADA (recoloreada por mí); no encontré el color oficial para fondo claro. Confirmar color con la marca."
+  },
+  {
+    "marca": "American Standard",
+    "slug": "american-standard",
+    "archivo": "american-standard.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://www.americanstandard.mx/ (SVG inline del header)",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#000000"
+    ],
+    "variantes": [],
+    "confianza": "alta",
+    "notas": "Logotipo script actual (Lixil, 2023 en Norteamérica) extraído del SVG inline del header de americanstandard.mx. Coincide con el og:image oficial (sin el claim LIFE.LOVE.HOME). Sin versión blanca encontrada."
+  },
+  {
+    "marca": "Firenze",
+    "slug": "firenze",
+    "archivo": "firenze.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://www.firenzeworld.com/img/logos/logo-firenze-horizontal-nuevo.svg",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#EB0029",
+      "#010101"
+    ],
+    "variantes": [],
+    "confianza": "media",
+    "notas": "Identificada como Firenze 'Porcelanato Arquitectónico', marca mexicana de porcelanato (firenzeworld.com, showroom en Lomas de Chapultepec, CDMX). Se quitó el descriptor 'Porcelanato Arquitectónico' (trazos separados) y se recortó el viewBox. Confirmar con Arkirámica que es esta Firenze y no la antigua marca de sanitarios Firenze (Sanitarios Azteca/Lamosa, sin sitio activo; firenze.com.mx tiene el certificado TLS vencido)."
+  },
+  {
+    "marca": "Daltile",
+    "slug": "daltile",
+    "archivo": "daltile.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://www.daltile.com.mx/wp-content/uploads/LOGO-BLANCO.svg",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#CB1336",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "variantes": [
+      "daltile-blanco.svg (oficial: cuadro rojo + texto blanco, para fondo oscuro)"
+    ],
+    "confianza": "alta",
+    "notas": "El SVG oficial de daltile.com.mx trae el texto 'daltile' en blanco. daltile.svg cambia solo el color del texto a negro, igual que el logo oficial a color del mismo sitio (webp con tagline 'Líder mundial en pisos y muros') y el DAL_Logo_H_Black.png de daltile.com. Es una recoloración derivada pero verificada contra el original."
+  },
+  {
+    "marca": "Castel",
+    "slug": "castel",
+    "archivo": "castel.png",
+    "formato": "png",
+    "vectorial": false,
+    "fuente_url": "https://castel.com.mx/wp-content/uploads/2021/06/Logo-color-gris.png",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#73797C",
+      "#F1B600",
+      "#AF262F",
+      "#1F2A51"
+    ],
+    "variantes": [],
+    "confianza": "media",
+    "notas": "RASTER de 1434x380 px, el original más grande en el servidor de castel.com.mx. Es el mismo diseño del header actual (castel-logo-up.png, 300x80). Incluye el descriptor 'azulejos · baños · canceles', que es parte del lockup; no hay versión sin él. Marca mexicana de LETSAC México (Tlalnepantla). No hay vector."
+  },
+  {
+    "marca": "Perdura",
+    "slug": "perdura",
+    "archivo": "perdura.png",
+    "formato": "png",
+    "vectorial": false,
+    "fuente_url": "https://www.perdura.com.mx/wp-content/uploads/2022/04/logo-perdura-big-1.png",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#0B0906"
+    ],
+    "variantes": [
+      "perdura-blanco.png (oficial en blanco, 647x111)"
+    ],
+    "confianza": "media",
+    "notas": "RASTER. Adhesivos Perdura (Grupo Lamosa), planta en Tlaquepaque, Jal. El original más grande (650x113) solo existe en blanco. perdura.png es esa misma imagen recoloreada al tono oficial #0B0906, que tomé de logo-perdura-color.png (239x54, con descriptor). Es una derivación. No hay vector."
+  },
+  {
+    "marca": "Cemix",
+    "slug": "cemix",
+    "archivo": "cemix.png",
+    "formato": "png",
+    "vectorial": false,
+    "fuente_url": "https://www.cemix.com/wp-content/uploads/2025/04/logo_retina_cemix_saint-gobain.webp",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#000000",
+      "#C3D600"
+    ],
+    "variantes": [
+      "cemix-blanco.png (oficial footer blanco + verde, 448x132)"
+    ],
+    "confianza": "media",
+    "notas": "RASTER de 595x172 (webp convertido a PNG y recortado). Es el lockup actual con el respaldo 'SAINT-GOBAIN'. Las versiones sin respaldo del sitio llevan el tagline 'Bien pegado, bien seguro' o son muy pequeñas (156x50). No hay vector."
+  },
+  {
+    "marca": "Ardex",
+    "slug": "ardex",
+    "archivo": "ardex.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://www.ardexamericas.com/ (SVG inline del header)",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#010101",
+      "#FFFFFF"
+    ],
+    "variantes": [],
+    "confianza": "alta",
+    "notas": "ardex.com.mx y ardex.mx no resuelven, así que la fuente es ARDEX Americas. El SVG inline tenía un namespace erróneo (https://) que corregí. El interior del óvalo es blanco (relleno), no transparente. El logo es el emblema ovalado (no existe versión horizontal)."
+  },
+  {
+    "marca": "Mapei",
+    "slug": "mapei",
+    "archivo": "mapei.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://commons.wikimedia.org/wiki/File:Mapei_logo.svg",
+    "tipo_fuente": "wikimedia",
+    "colores": [
+      "#005CB9"
+    ],
+    "variantes": [],
+    "confianza": "alta",
+    "notas": "mapei.com bloquea las descargas automatizadas (Cloudflare 403). El SVG de Commons se extrajo de un PDF oficial de cdnmedia.mapei.com. Descargué ese PDF y comparé el render: el logo coincide (frasco + MAPEI®)."
+  },
+  {
+    "marca": "Laticrete",
+    "slug": "laticrete",
+    "archivo": "laticrete.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://cdn-global.laticrete.com/-/media/project/laticrete-international/shared/images/home/image-link-list/laticrete-logo_4c.svg",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#00ACD4",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "variantes": [],
+    "confianza": "alta",
+    "notas": "SVG 4 colores enlazado desde mx.laticrete.com. viewBox recortado al contenido (incluye ®). El logo oficial es la placa de azulejos (no existe versión horizontal)."
+  },
+  {
+    "marca": "Vitromex",
+    "slug": "vitromex",
+    "archivo": "vitromex.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://www.vitromex.com.mx/landingpage/img/logo-vitromex.svg",
+    "tipo_fuente": "oficial",
+    "colores": [
+      "#000000"
+    ],
+    "variantes": [
+      "vitromex-blanco.svg (oficial en blanco, sin tagline)"
+    ],
+    "confianza": "media",
+    "notas": "El sitio oficial solo tiene el SVG en BLANCO con el tagline 'MI ESPACIO, MI MUNDO'. Quité el tagline y recorté el viewBox. vitromex.svg es una versión monocroma negra DERIVADA. Falta confirmar el color oficial para fondo claro."
+  },
+  {
+    "marca": "Villeroy & Boch",
+    "slug": "villeroy-boch",
+    "archivo": "villeroy-boch.svg",
+    "formato": "svg",
+    "vectorial": true,
+    "fuente_url": "https://commons.wikimedia.org/wiki/File:Villeroy_%26_Boch_logo_inverse.svg",
+    "tipo_fuente": "wikimedia",
+    "colores": [
+      "#1B458F"
+    ],
+    "variantes": [
+      "villeroy-boch-blanco.svg (DERIVADA: mismo vector recoloreado a blanco)"
+    ],
+    "confianza": "media",
+    "notas": "villeroy-boch.com y villeroyboch-group.com bloquean las descargas automatizadas (403). Lo comparé con el logo de la sala de prensa oficial de V&B en Mynewsdesk (mismo emblema, 'Villeroy & Boch', '1748', azul) y coincide. Quité el rectángulo blanco de fondo del archivo de Commons y recorté el viewBox. Es el logo apilado oficial; no encontré una versión horizontal."
+  }
+]

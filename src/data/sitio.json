@@ -1,0 +1,14 @@
+{
+  "nombre": "Arkirámica",
+  "razonSocial": "Arkirámica S.A. de C.V.",
+  "lema": "Pisos · Baños · Plomería",
+  "telefono": "+525579605466",
+  "telefonoVisible": "55 7960 5466",
+  "whatsapp": "https://wa.me/525579605466",
+  "correo": "info@arkiramica.com.mx",
+  "descripcion": "Pisos, azulejos, muebles para baño, grifería, plomería, calentadores y adhesivos de las mejores marcas. Sucursales en Puerto Vallarta, Bahía de Banderas y Guadalajara.",
+  "redes": [
+    { "nombre": "Instagram", "usuario": "@arkiramica", "url": "https://www.instagram.com/arkiramica/" },
+    { "nombre": "Facebook", "usuario": "/arkiramica", "url": "https://www.facebook.com/arkiramica/" }
+  ]
+}
