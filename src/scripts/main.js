@@ -213,3 +213,25 @@ document.querySelectorAll('.hero__video').forEach((v) => {
     })
   );
 })();
+
+/* ---------- Líneas en móvil: contador al deslizar ---------- */
+(function lineasScroll() {
+  const track = document.getElementById('lineas-track');
+  const count = document.getElementById('lineas-count');
+  if (!track || !count) return;
+  const items = track.children;
+  const total = String(items.length).padStart(2, '0');
+  let raf = 0;
+  const update = () => {
+    raf = 0;
+    const first = items[0];
+    if (!first) return;
+    const step = first.getBoundingClientRect().width + 12;
+    if (!step) return;
+    const idx = Math.min(items.length, Math.max(1, Math.round(track.scrollLeft / step) + 1));
+    count.textContent = `${String(idx).padStart(2, '0')} / ${total}`;
+  };
+  track.addEventListener('scroll', () => {
+    if (!raf) raf = requestAnimationFrame(update);
+  }, { passive: true });
+})();
