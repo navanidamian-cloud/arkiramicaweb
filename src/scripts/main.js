@@ -153,10 +153,23 @@ document.querySelectorAll('.hero__video').forEach((v) => {
   region.addEventListener('focusin', () => { paused = true; });
   region.addEventListener('focusout', () => { paused = false; });
 
-  // Arrastre
+  // Arrastre y toque en color (móvil/táctil)
   let startX = 0, startOffset = 0, lastX = 0, lastT = 0;
+  let activeLi = null, activeTimer = 0;
+  const clearActive = () => {
+    clearTimeout(activeTimer);
+    if (activeLi) { activeLi.classList.remove('is-active'); activeLi = null; }
+  };
   region.addEventListener('pointerdown', (e) => {
     if (!e.isPrimary || e.button !== 0) return;
+    if (e.pointerType !== 'mouse') {
+      const li = e.target.closest('.marquee__set li');
+      clearActive();
+      if (li) {
+        activeLi = li;
+        li.classList.add('is-active');
+      }
+    }
     dragging = true; glide = null; vel = 0; speed = 0;
     startX = lastX = e.clientX; startOffset = x; lastT = performance.now();
     try { region.setPointerCapture(e.pointerId); } catch (err) {}
@@ -177,7 +190,10 @@ document.querySelectorAll('.hero__video').forEach((v) => {
     region.classList.remove('dragging');
     if (performance.now() - lastT > 80) vel = 0;
     vel = Math.max(-2400, Math.min(2400, vel));
-    if (e.pointerType !== 'mouse') paused = false;
+    if (e.pointerType !== 'mouse') {
+      paused = false;
+      if (activeLi) activeTimer = setTimeout(clearActive, 1600);
+    }
     last = performance.now();
   };
   region.addEventListener('pointerup', end);
