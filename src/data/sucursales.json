@@ -15,37 +15,83 @@
     "whatsapp": null,
     "maps": "https://maps.app.goo.gl/KnxohDm17ePgZHJ69",
     "horario": [
-      { "dias": "Lunes a viernes", "horas": "8:30 – 18:30", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "08:30", "cierra": "18:30" },
-      { "dias": "Sábado", "horas": "9:00 – 14:00", "ld": ["Saturday"], "abre": "09:00", "cierra": "14:00" },
-      { "dias": "Domingo", "horas": "Cerrado" }
+      {
+        "dias": "Lunes a viernes",
+        "horas": "8:30 – 18:30",
+        "ld": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "abre": "08:30",
+        "cierra": "18:30"
+      },
+      {
+        "dias": "Sábado",
+        "horas": "9:00 – 14:00",
+        "ld": [
+          "Saturday"
+        ],
+        "abre": "09:00",
+        "cierra": "14:00"
+      },
+      {
+        "dias": "Domingo",
+        "horas": "Cerrado"
+      }
     ]
   },
   {
     "id": "mezcales",
     "nombre": "Mezcales",
     "zona": "Bahía de Banderas",
-    "direccion": "Calle Yaca, San Clemente, 63407 Bahía de Banderas, Nay.",
-    "direccionConfirmada": false,
+    "direccion": "Carretera a San José del Valle #250, Mezcales, Nayarit.",
+    "direccionConfirmada": true,
     "ciudad": "Bahía de Banderas",
     "estado": "Nayarit",
     "cp": "63407",
     "lat": 20.7344248,
     "lon": -105.2760056,
-    "telefono": "+523222903235",
-    "telefonoVisible": "322 290 3235",
+    "telefono": "+523292968867",
+    "telefonoVisible": "329 296 8867",
     "whatsapp": null,
     "maps": "https://maps.app.goo.gl/v56r4qBWsuJ6Ujiy6",
     "horario": [
-      { "dias": "Lunes a viernes", "horas": "8:30 – 18:30", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "08:30", "cierra": "18:30" },
-      { "dias": "Sábado", "horas": "8:30 – 14:00", "ld": ["Saturday"], "abre": "08:30", "cierra": "14:00" },
-      { "dias": "Domingo", "horas": "Cerrado" }
+      {
+        "dias": "Lunes a viernes",
+        "horas": "8:30 – 18:30",
+        "ld": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "abre": "08:30",
+        "cierra": "18:30"
+      },
+      {
+        "dias": "Sábado",
+        "horas": "8:30 – 14:00",
+        "ld": [
+          "Saturday"
+        ],
+        "abre": "08:30",
+        "cierra": "14:00"
+      },
+      {
+        "dias": "Domingo",
+        "horas": "Cerrado"
+      }
     ]
   },
   {
     "id": "guadalajara",
     "nombre": "Guadalajara",
     "zona": "Ladrón de Guevara",
-    "direccion": "Av. México, Ladrón de Guevara, 44158 Guadalajara, Jal.",
+    "direccion": "Av. México #2386, Ladrón de Guevara, 44158 Guadalajara, Jal.",
     "direccionConfirmada": false,
     "ciudad": "Guadalajara",
     "estado": "Jalisco",
@@ -57,29 +103,76 @@
     "whatsapp": null,
     "maps": "https://maps.app.goo.gl/4Xmfv1hYG35nR1DT6",
     "horario": [
-      { "dias": "Lunes a viernes", "horas": "9:00 – 19:00", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "09:00", "cierra": "19:00" },
-      { "dias": "Sábado", "horas": "9:00 – 14:00", "ld": ["Saturday"], "abre": "09:00", "cierra": "14:00" },
-      { "dias": "Domingo", "horas": "Cerrado" }
+      {
+        "dias": "Lunes a viernes",
+        "horas": "9:00 – 19:00",
+        "ld": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "abre": "09:00",
+        "cierra": "19:00"
+      },
+      {
+        "dias": "Sábado",
+        "horas": "9:00 – 14:00",
+        "ld": [
+          "Saturday"
+        ],
+        "abre": "09:00",
+        "cierra": "14:00"
+      },
+      {
+        "dias": "Domingo",
+        "horas": "Cerrado"
+      }
     ]
   },
   {
     "id": "bodega-3",
-    "nombre": "Bodega 3",
-    "zona": "Ixtapa, Puerto Vallarta",
-    "direccion": "Carretera Guadalajara – Puerto Vallarta, Ixtapa, 48282 Puerto Vallarta, Jal.",
+    "nombre": "Ixtapa",
+    "zona": "Bodega 3 · Puerto Vallarta",
+    "direccion": "Carretera a Ixtapa #1349, 48280 Ixtapa, Jal.",
     "direccionConfirmada": false,
     "ciudad": "Puerto Vallarta",
     "estado": "Jalisco",
     "cp": "48282",
     "lat": 20.7127868,
     "lon": -105.2202256,
-    "telefono": null,
-    "telefonoVisible": null,
+    "telefono": "+523311718180",
+    "telefonoVisible": "33 1171 8180",
     "whatsapp": null,
     "maps": "https://maps.app.goo.gl/7ownLtkxZaMLrraQA",
     "horario": [
-      { "dias": "Lunes a viernes", "horas": "9:00 – 18:00", "ld": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "abre": "09:00", "cierra": "18:00" },
-      { "dias": "Sábado y domingo", "horas": "Cerrado" }
+      {
+        "dias": "Lunes a viernes",
+        "horas": "9:00 – 18:00",
+        "ld": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "abre": "09:00",
+        "cierra": "18:00"
+      },
+      {
+        "dias": "Sábado",
+        "horas": "9:00 – 14:00",
+        "ld": [
+          "Saturday"
+        ],
+        "abre": "09:00",
+        "cierra": "14:00"
+      },
+      {
+        "dias": "Domingo",
+        "horas": "Cerrado"
+      }
     ]
   }
 ]
